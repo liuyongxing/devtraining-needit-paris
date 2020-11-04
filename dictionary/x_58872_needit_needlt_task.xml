@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Needlt Task" max_length="40" name="x_58872_needit_needlt_task" type="collection">
+    <element label="Needlt Task" max_length="40" name="x_58872_needit_needlt_task" sizeclass="1" type="collection">
         <element dependent="assigned_to" dependent_on_field="assigned_to" label="Assigned to" max_length="100" name="assigned_to" type="string" use_dependent_field="true"/>
         <element label="Due date" max_length="40" name="due_date" type="glide_date"/>
         <element label="Short description" mandatory="true" max_length="1000" name="short_description" type="string"/>
