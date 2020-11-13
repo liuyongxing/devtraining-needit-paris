@@ -11,7 +11,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>demo_flow</internal_name>
-        <label_cache>[{"name":"Inbound Email_1.inbound_email","label":"Trigger➛Email Record","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{}},{"name":"Inbound Email_1.target_record.u_requested_for","label":"Trigger➛NeedIt Record➛Requested for","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_58872_needit_needit","column_name":"u_requested_for"},{"name":"f8221dab-5e0b-46fd-9f33-791dd1c0eb9f.Catalog Task","label":"1➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Inbound Email_1.inbound_email.user","label":"Trigger➛Email Record➛User","reference":"","reference_display":"User","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"user"},{"name":"Inbound Email_1.target_record","label":"Trigger➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference","attributes":{"test_input_hidden":"true"}},{"name":"Inbound Email_1.user.sys_id","label":"Trigger➛User Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"Inbound Email_1.user","label":"Trigger➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"test_input_hidden":"true"}}]</label_cache>
+        <label_cache>[{"name":"Inbound Email_1.target_record.u_when_needed","label":"Trigger➛NeedIt Record➛When needed","reference":"","reference_display":"When needed","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_58872_needit_needit","column_name":"u_when_needed"},{"name":"Inbound Email_1.target_table_name","label":"Trigger➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"e741f10a-77a9-45ed-8dd7-69f5f87cd5e7.table_name","label":"1➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e741f10a-77a9-45ed-8dd7-69f5f87cd5e7.record","label":"1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Inbound Email_1.inbound_email","label":"Trigger➛Email Record","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference","attributes":{}},{"name":"Inbound Email_1.target_record.u_requested_for","label":"Trigger➛NeedIt Record➛Requested for","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_58872_needit_needit","column_name":"u_requested_for"},{"name":"f8221dab-5e0b-46fd-9f33-791dd1c0eb9f.Catalog Task","label":"1➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Inbound Email_1.inbound_email.user","label":"Trigger➛Email Record➛User","reference":"","reference_display":"User","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"user"},{"name":"Inbound Email_1.target_record","label":"Trigger➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference","attributes":{"test_input_hidden":"true"}},{"name":"Inbound Email_1.user.sys_id","label":"Trigger➛User Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_user","column_name":"sys_id"},{"name":"Inbound Email_1.user","label":"Trigger➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"test_input_hidden":"true"}},{"name":"662480d1-83b9-4026-883c-97fe73fdff46.Record","label":"1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"662480d1-83b9-4026-883c-97fe73fdff46.Table","label":"1➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"3d96f8aa-cc64-4bb4-a866-f01c5aad0ed7.Catalog Task","label":"1➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Inbound Email_1.inbound_email.sys_created_by","label":"Trigger➛Email Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"sys_created_by"},{"name":"dc961003-7ad5-47df-b6ac-9cb76be94002.Record","label":"1➛Attachment Record","reference":"sys_attachment","reference_display":"Attachment","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dc961003-7ad5-47df-b6ac-9cb76be94002.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"dc961003-7ad5-47df-b6ac-9cb76be94002.status","label":"1➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"dc961003-7ad5-47df-b6ac-9cb76be94002.error_message","label":"1➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}}]</label_cache>
         <latest_snapshot>4663d5c3dbd0e410a1782bfa4b9619c5</latest_snapshot>
         <master_snapshot>4663d5c3dbd0e410a1782bfa4b9619c5</master_snapshot>
         <name>Demo Flow</name>
@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2f64cd4bdb90e410a1782bfa4b961908</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Demo Flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_hub_flow_2f64cd4bdb90e410a1782bfa4b961908</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-10 08:28:05</sys_updated_on>
+        <sys_updated_on>2020-11-11 05:28:24</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=2f64cd4bdb90e410a1782bfa4b961908"/>
@@ -64,11 +64,11 @@
         <sys_updated_on>2020-11-10 03:22:40</sys_updated_on>
         <target_table>x_58872_needit_needit</target_table>
     </sys_flow_email_trigger>
-    <sys_hub_flow_component action="delete_multiple" query="flow=2f64cd4bdb90e410a1782bfa4b961908^sys_idNOT INf6e5cd8bdb90e410a1782bfa4b96199a"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=2f64cd4bdb90e410a1782bfa4b961908^sys_idNOT IN0ec93657db902010a1782bfa4b9619f0,f6e5cd8bdb90e410a1782bfa4b96199a"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Move Email Attachments to Record">bd8fcd48a73133008299b39f087901fc</action_type>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot/>
@@ -78,12 +78,73 @@
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-11-10 02:23:42</sys_created_on>
-        <sys_id>f6e5cd8bdb90e410a1782bfa4b96199a</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_created_on>2020-11-11 05:28:24</sys_created_on>
+        <sys_id>0ec93657db902010a1782bfa4b9619f0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-10 08:28:05</sys_updated_on>
+        <sys_updated_on>2020-11-11 05:28:24</sys_updated_on>
+        <ui_id>dc961003-7ad5-47df-b6ac-9cb76be94002</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0ec93657db902010a1782bfa4b9619f0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0ec93657db902010a1782bfa4b9619f0</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-11 05:28:24</sys_created_on>
+        <sys_id>0ac93657db902010a1782bfa4b9619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-11 05:28:24</sys_updated_on>
+        <value>sys_attachment</value>
+        <variable display_value="">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0ec93657db902010a1782bfa4b9619f0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>0ec93657db902010a1782bfa4b9619f0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-11 05:28:24</sys_created_on>
+        <sys_id>c2c93657db902010a1782bfa4b9619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-11 05:28:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>sys_created_by={{Inbound Email_1.inbound_email.sys_created_by}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>0ec93657db902010a1782bfa4b9619f0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-11 05:28:24</sys_created_on>
+        <sys_id>86c93657db902010a1782bfa4b9619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-11 05:28:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Move Email Attachments to Record">bd8fcd48a73133008299b39f087901fc</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Demo Flow">2f64cd4bdb90e410a1782bfa4b961908</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-10 02:23:42</sys_created_on>
+        <sys_id>f6e5cd8bdb90e410a1782bfa4b96199a</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-11 05:28:24</sys_updated_on>
         <ui_id>2e3a48f5-c58a-4a35-a616-3950c85752d8</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f6e5cd8bdb90e410a1782bfa4b96199a"/>
@@ -106,11 +167,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-10 02:23:42</sys_created_on>
         <sys_id>32e5cd8bdb90e410a1782bfa4b96199c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-10 08:28:05</sys_updated_on>
+        <sys_updated_on>2020-11-11 05:28:24</sys_updated_on>
         <table>var__m_sys_hub_action_input_bd8fcd48a73133008299b39f087901fc</table>
-        <value>{{Inbound Email_1.target_record}}</value>
+        <value>{{Inbound Email_1.inbound_email}}</value>
     </sys_element_mapping>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=2f64cd4bdb90e410a1782bfa4b961908^sys_idNOT IN22e5cd8bdb90e410a1782bfa4b96198c"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
@@ -122,10 +183,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-10 02:23:42</sys_created_on>
         <sys_id>22e5cd8bdb90e410a1782bfa4b96198c</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-10 08:28:05</sys_updated_on>
+        <sys_updated_on>2020-11-11 05:28:24</sys_updated_on>
         <trigger_definition display_value="Inbound Email">6f0180400b320300f4eb8bf637673ad4</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -757,11 +818,11 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_instance action="delete_multiple" query="flow=2f64cd4bdb90e410a1782bfa4b961908^sys_idNOT INf6e5cd8bdb90e410a1782bfa4b96199a"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=2f64cd4bdb90e410a1782bfa4b961908^sys_idNOT IN0ec93657db902010a1782bfa4b9619f0,f6e5cd8bdb90e410a1782bfa4b96199a"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Move Email Attachments to Record">bd8fcd48a73133008299b39f087901fc</action_type>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot/>
@@ -771,12 +832,73 @@
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-11-10 02:23:42</sys_created_on>
-        <sys_id>f6e5cd8bdb90e410a1782bfa4b96199a</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_created_on>2020-11-11 05:28:24</sys_created_on>
+        <sys_id>0ec93657db902010a1782bfa4b9619f0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-10 08:28:05</sys_updated_on>
+        <sys_updated_on>2020-11-11 05:28:24</sys_updated_on>
+        <ui_id>dc961003-7ad5-47df-b6ac-9cb76be94002</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0ec93657db902010a1782bfa4b9619f0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0ec93657db902010a1782bfa4b9619f0</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-11 05:28:24</sys_created_on>
+        <sys_id>0ac93657db902010a1782bfa4b9619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-11 05:28:24</sys_updated_on>
+        <value>sys_attachment</value>
+        <variable display_value="">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0ec93657db902010a1782bfa4b9619f0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>0ec93657db902010a1782bfa4b9619f0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-11 05:28:24</sys_created_on>
+        <sys_id>c2c93657db902010a1782bfa4b9619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-11 05:28:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>sys_created_by={{Inbound Email_1.inbound_email.sys_created_by}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>0ec93657db902010a1782bfa4b9619f0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-11 05:28:24</sys_created_on>
+        <sys_id>86c93657db902010a1782bfa4b9619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-11 05:28:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Move Email Attachments to Record">bd8fcd48a73133008299b39f087901fc</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Demo Flow">2f64cd4bdb90e410a1782bfa4b961908</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-10 02:23:42</sys_created_on>
+        <sys_id>f6e5cd8bdb90e410a1782bfa4b96199a</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-11 05:28:24</sys_updated_on>
         <ui_id>2e3a48f5-c58a-4a35-a616-3950c85752d8</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f6e5cd8bdb90e410a1782bfa4b96199a"/>
@@ -799,11 +921,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-11-10 02:23:42</sys_created_on>
         <sys_id>32e5cd8bdb90e410a1782bfa4b96199c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-10 08:28:05</sys_updated_on>
+        <sys_updated_on>2020-11-11 05:28:24</sys_updated_on>
         <table>var__m_sys_hub_action_input_bd8fcd48a73133008299b39f087901fc</table>
-        <value>{{Inbound Email_1.target_record}}</value>
+        <value>{{Inbound Email_1.inbound_email}}</value>
     </sys_element_mapping>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_2f64cd4bdb90e410a1782bfa4b961908^sys_idNOT IN2ee5cd8bdb90e410a1782bfa4b961977,62e5cd8bdb90e410a1782bfa4b96197d,a2e5cd8bdb90e410a1782bfa4b96196d,a6e5cd8bdb90e410a1782bfa4b961967,a6e5cd8bdb90e410a1782bfa4b961982,e6e5cd8bdb90e410a1782bfa4b961972,eae5cd8bdb90e410a1782bfa4b961987"/>
     <sys_documentation action="INSERT_OR_UPDATE">
@@ -1851,7 +1973,7 @@
         <sys_created_on>2020-11-10 03:22:39</sys_created_on>
         <sys_id>1a63d5c3dbd0e410a1782bfa4b9619e5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Subject</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
@@ -1874,7 +1996,7 @@
         <sys_created_on>2020-11-10 03:22:39</sys_created_on>
         <sys_id>4e63d5c3dbd0e410a1782bfa4b9619d1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Body Text</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
@@ -1897,7 +2019,7 @@
         <sys_created_on>2020-11-10 03:22:39</sys_created_on>
         <sys_id>5a6319c3dbd0e410a1782bfa4b96190d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Target Record</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
@@ -1920,7 +2042,7 @@
         <sys_created_on>2020-11-10 03:22:39</sys_created_on>
         <sys_id>9663d5c3dbd0e410a1782bfa4b9619ef</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Inbound Email</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
@@ -1943,7 +2065,7 @@
         <sys_created_on>2020-11-10 03:22:39</sys_created_on>
         <sys_id>9663d5c3dbd0e410a1782bfa4b9619f9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>From address</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
@@ -1966,7 +2088,7 @@
         <sys_created_on>2020-11-10 03:22:39</sys_created_on>
         <sys_id>9a63d5c3dbd0e410a1782bfa4b9619db</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Target Table</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
@@ -1989,7 +2111,7 @@
         <sys_created_on>2020-11-10 03:22:39</sys_created_on>
         <sys_id>d66319c3dbd0e410a1782bfa4b961903</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>User</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
